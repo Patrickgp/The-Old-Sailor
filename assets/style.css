@@ -11,8 +11,7 @@ html {
 
 body {
     background-color:#ffffff;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 ul {
@@ -32,7 +31,7 @@ ul {
 
 li {
     text-align: center;
-    margin: 10px;
+    margin: 15px;
     font-size: 20pt;
 }
 
@@ -60,7 +59,7 @@ li a:hover{
     border-radius: 25px;
     border: black solid 2px;
     box-shadow: 2px 2px 2px gray;
-    font-size: 16pt;
+    font-size: 20pt;
 }
 
 .cta a:hover {
@@ -80,14 +79,14 @@ li a:hover{
 
 .food {
     display: block;
-    width: 1200px;
-    background-color: #002e45;
+    background-color: #3089a9;
+
 }
 
 .food img {
     width: 1650px;
-    margin-left: 15vw;
-    position: absolute;
+    margin-left: 15.2vw;
+    position: relative;
     top: -400px;
     left: px;
     padding: 0;
