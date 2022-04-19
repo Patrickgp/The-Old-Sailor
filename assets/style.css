@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    transition: ease-in-out 0.3s;
 }
 
 html {
@@ -90,4 +91,46 @@ li a:hover{
     top: -400px;
     left: px;
     padding: 0;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.grid-item1 img{
+    width: 500px;
+    position: relative;
+    left: 20vw;
+    top: 14vh;
+    border: #002e45 solid 2px;
+    border-radius: 25px;
+
+}
+
+.grid-item2 img{
+    width: 200px;
+    position: absolute;
+    left: 48vw;
+    top: 17vh;
+    border: #002e45 solid 2px;
+    border-radius: 25px;
+}
+
+.grid-item3 img{
+    width: 500px;
+    position: absolute;
+    left: 60vw;
+    top: 14vh;
+    border: #002e45 solid 2px;
+    border-radius: 25px;
+}
+
+.about-us {
+    display: block;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 45vw;
+    left: 50vw;
+    top: 59vh;
 }
